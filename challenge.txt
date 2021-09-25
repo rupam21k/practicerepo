@@ -1,0 +1,9 @@
+One fine day, one task was there to retrieve, data of a particular employee according to user name, 
+There was normal Ui for search option , where you need to enter the user id, after searching, it will display the details if the user exist,
+
+So one user id with all details is there in back end,
+i have write the dao and service classes with appropriate queries, 
+but when ever i search the user id from ui , 
+its not displaying the data, i stuck there it self, 
+then after long experiment i found that that user id i entered in the ui contains extra one blank space,
+ so i applied trim() at java code, then it works, so it always recommended to use trim(), when ever you are getting the request parameters.
